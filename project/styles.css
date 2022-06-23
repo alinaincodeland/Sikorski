@@ -1,113 +1,146 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    width: 100%;
-    height: 100%;
+body {
+  width: 100%;
+  height: 100%;
 }
 
-main{
-    width: 100%;
-        height: 95vh;
+main {
+  width: 100%;
+  height: 95vh;
+  
 }
-.left{
-display: flex;
-flex-direction: column;
-justify-content: space-around;
- float:left;
- width: 50%;
- height: 100%;
-
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  float: left;
+  width: 50%;
+  height: 100%;
 }
-.logo{
-font-family: 'Lobster', cursive;
+.logo {
+  font-family: "Lobster", cursive;
 }
 .logo::first-letter {
-            font-size: 200%;
-            
-                    color: white;
-                    text-shadow: 1px 1px 2px black, 0 0 25px rgb(136, 136, 151), 0 0 5px rgb(92, 92, 109);
-                
-        }
+  font-size: 200%;
+
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(136, 136, 151),
+    0 0 5px rgb(92, 92, 109);
+}
 
 a:hover {
-    background-color: #b4b8b4;
+  background-color: #b4b8b4;
   color: white;
   cursor: pointer;
 }
 
-.right{
-float: right;
-    width: 50%;
-    height: 100%;
-    background-color: white;
-            display: grid;
-            grid-template-columns: repeat(2, 1.5fr) 1fr;
-            grid-template-rows: repeat(12, 1fr);
-            grid-column-gap: 12px;
-            grid-row-gap: 12px;
-        }
-   
-img{
-    object-fit: fill;
+.right {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1.5fr) 1fr;
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+}
+
+img {
+  object-fit: fill;
+}
+
+.div1 {
+  grid-area: 7 / 3 / 13 / 4;
+  background-image: url(./img/york.jpg);
+  background-position: center;
+}
+
+.div2 {
+  grid-area: 1 / 3 / 7 / 4;
+  background-image: url(./img/da1.png);
+  background-position: center;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
+
+.div3 {
+  grid-area: 5 / 1 / 9 / 2;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(./img/lolli.jpeg);
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
+
+.div4 {
+  grid-area: 5 / 2 / 9 / 3;
+  background-image: url(./img/download.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div5 {
+  grid-area: 1 / 1 / 5 / 3;
+  background-image: url(./img/k1.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.div6 {
+  grid-area: 9 / 1 / 13 / 3;
+ background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  top center;
+  background-image: url(./img/gd.jpg);
+}
+
+footer {
+  height: 3%;
+  background-color: rgb(186, 171, 218, 0.54)
 }
 
 
-        .div1 {
-            grid-area: 7 / 3 / 13 / 4;
-            background-image: url(./img/york.jpg);
-            background-position: center;
-        }
-    
-        .div2 {
-            grid-area: 1 / 3 / 7 / 4;
-            background-image: url(./img/da1.png);
-                background-position: center;
-                background-size: cover;
-                
-                    background-repeat: no-repeat;
-        }
-    
-        .div3 {
-            grid-area: 5 / 1 / 9 / 2;
-          
-                background-position: center;
-                background-repeat: no-repeat;
-                background-image: url(./img/lolli.jpeg);
-                background-size: cover;
 
-                background-repeat: no-repeat;
-        }
-    
-        .div4 {
-            grid-area: 5 / 2 / 9 / 3;
-            background-image: url(./img/download.jpeg);
-                background-position: center;
-background-size: cover;
-                background-repeat: no-repeat;
-        }
-    
-        .div5 {
-            grid-area: 1 / 1 / 5 / 3;
-            background-image: url(./img/k1.png);
-                background-position: center;
-                background-size: contain;
-                background-repeat: no-repeat;
-        }
-    
-        .div6 {
-            grid-area: 9 / 1 / 13 / 3;
-           
-                background-repeat: no-repeat;
-        background-size: cover;
-                background-position: center;
-            background-image: url(./img/gd.jpg);
-        }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 480px){
 
-        footer{
-            height: 3%;
-            background-color: blue;
+main {
+display: flex;
+        flex-direction: column;
+}
+        .left {
+            flex-direction: row;
+    
         }
+        .logo{
+            width: 100%;
+            background-color: aqua;
+        }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 481px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) {
+    
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1280px) {
+    
+}
