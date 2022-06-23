@@ -18,3 +18,7 @@ Tasks distribution:
 Home - Izabela
 Gallery - Alan
 Preise - Alina
+
+
+Body: 
+Margin: 90px
