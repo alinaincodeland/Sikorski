@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: fit-content;
+   
+}
+
+.name {
+    font-size: 104px;
+    color:#D77FA1;
+    margin-left:80px;
+    margin-top:80px;
+}
+
+.subname {
+    font-size: 32px;
+    color:black;
+    margin-left:80px;
+}
+
+.nav {
+    position:relative;
+    top:200px;
+    font-size: 40px;
+    color:#BAABDA;
+    margin-left:80px;
+    line-height: 50px;
+}
+
+footer {
+    position:relative;
+    background-color: rgb(186, 171, 218,.54);
+    top:-1540px;
+    z-index: 1;
+    width: max;
+    margin-left:80px;
+    margin-right:80px;
+}
+
+.image {
+    position:relative; 
+    top:-435px;
+    z-index: -1;
+    left:528px;
+}
+
+ a:link {
+    text-decoration: none;
+    color:#BAABDA;
+    line-height: 50px;;
+  }
+  
+  
+  a:hover {
+    color: #D77FA1;
+  }
+
+  a:visited {
+    color: #BAABDA;
+  }
+
+.container {
+    padding:70px;
+    height:920px;
+    width: 492px;
+    background-color:rgb(215, 127, 161,0.38);
+    position:relative;
+    left:1000px;
+    top:-300px;
+}
+
+.img1 {
+    position: relative;
+    margin:80px;
+    top:-886px;
+}
+
+.img2 {
+    position: relative;
+    margin:80px;
+    top:-886px;
+    left:920px;
+
+}
+
+.img3 {
+    position: relative;
+    margin-right:80px;
+    top:-1006px;
+    right:-500px;
+}
