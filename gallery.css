@@ -1,0 +1,488 @@
+#gallery-page html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#gallery-page *,
+#gallery-page *:before,
+#gallery-page *:after {
+    box-sizing: inherit;
+}
+
+#gallery-page body,
+#gallery-page h1,
+#gallery-page h2,
+#gallery-page h3,
+#gallery-page h4,
+#gallery-page h5,
+#gallery-page h6,
+#gallery-page p,
+#gallery-page ol,
+#gallery-page ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+#gallery-page     ol,
+#gallery-page ul {
+    list-style: none;
+}
+
+/* img {
+    max-width: 100%;
+    height: auto;
+} */
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+#gallery-page .page {
+    display: flex;
+    justify-content: space-between;
+      font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+            font-size: 2rem;
+            padding: 2rem;
+            max-width: 90%;
+            margin: auto;
+}
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+#gallery-page .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#gallery-page .h1 {
+    color: #D77FA1;
+    margin-top: 50px;
+    font-size: 5.5rem;
+}
+#gallery-page .title p{
+    color: black;
+    margin-top: 20px;
+    font-size: 1.9rem;
+    width: 390px;
+}
+#gallery-page nav li {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+#gallery-page nav a {
+    text-decoration: none;
+    color: #8F8FCD;
+}
+
+#gallery-page nav li:first-child {
+    margin-bottom: 30px;
+    font-size: 2.1rem;
+}
+
+#gallery-page .current {
+    text-decoration: underline;
+}
+
+#gallery-page .kontakt {
+    color: #D77FA1;
+}
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+#gallery-page .text{
+    background: #8F8FCD; color: white;display: flex;
+        justify-content: center;
+        align-items: center;
+}
+#gallery-page .text a{
+    text-decoration: none;color: white;
+}
+#gallery-page .text1 p{
+font-size: 4rem;
+}
+#gallery-page .text2 p{
+    font-size: 1.6rem;
+}
+#gallery-page .text3 p,#gallery-page .text4 p {
+    font-size: 3rem;
+}
+#gallery-page .image {
+    overflow: hidden;
+}
+
+#gallery-page .image img {
+    object-fit: cover;
+    object-position: center;
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+#gallery-page .gallery {
+display: grid;
+    grid-template-columns: 260px 260px 260px;
+    grid-template-rows: 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px;
+    gap: 24px 18px;
+    grid-template-areas: 
+        "dog1 dog1 dog2"
+        "dog1 dog1 dog2"
+        "dog1 dog1 dog2"
+        "dog1 dog1 dog2"
+        "dog1 dog1 dog2"
+        "dog1 dog1 dog2"
+        "dog1 dog1 dog2"
+        "dog1 dog1 dog2"
+        "dog1 dog1 dog2"
+        "digital digital dog2"
+        "digital digital kleine"
+        "digital digital kleine"
+        "digital digital dog5"
+        "dog3 dog4 dog5"
+        "dog3 dog4 dog5"
+        "dog3 dog4 dog5"
+        "dog3 dog4 dog5"
+        "dog3 dog4 dog5"
+        "dog3 dog4 dog5"
+        "dog3 dog4 dog5"
+        "dog3 dog4 dog5"
+        "hunde katze dog5"
+        "hunde katze dog5"
+        "hunde katze dog5";
+}
+
+#gallery-page .text2 {
+    grid-area: kleine;
+}
+
+#gallery-page .text1 {
+    grid-area: digital;
+}
+
+#gallery-page .text3 {
+    grid-area: hunde;
+}
+
+#gallery-page .text4 {
+    grid-area: katze;
+}
+
+#gallery-page .image2 {
+    grid-area: dog2;
+}
+
+#gallery-page .image1 {
+    grid-area: dog1;
+}
+
+#gallery-page .image3 {
+    grid-area: dog3;
+}
+
+#gallery-page .image4 {
+    grid-area: dog4;
+}
+
+#gallery-page .image5 {
+    grid-area: dog5;
+}
+/* ---------------------------------------------------------------------- */
+
+#gallery-page ul {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Gallery-2 Hunde */
+
+    
+   
+    
+
+
+
+.gallery-2 {
+                display: grid;
+                grid-template-columns: 260px 260px 260px;
+                grid-template-rows: 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px;
+                grid-auto-columns: 1fr;
+                gap: 24px 18px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "king-dog king-dog halfdog"
+                    "king-dog king-dog halfdog"
+                    "king-dog king-dog halfdog"
+                    "king-dog king-dog halfdog"
+                    "king-dog king-dog halfdog"
+                    "king-dog king-dog halfdog"
+                    "king-dog king-dog halfdog"
+                    "king-dog king-dog halfdog"
+                    "king-dog king-dog halfdog"
+                    "king-dog king-dog halfdog"
+                    "left-dog right-dog halfdog"
+                    "left-dog right-dog halfdog"
+                    "left-dog right-dog halfdog"
+                    "left-dog right-dog dogggi"
+                    "left-dog right-dog dogggi"
+                    "left-dog right-dog dogggi"
+                    "left-dog right-dog dogggi"
+                    "left-dog right-dog dogggi"
+                    "left-dog right-dog dogggi"
+                    "left-dog right-dog dogggi"
+                    "dogs dogs dogggi"
+                    "dogs dogs dogggi"
+                    "dogs dogs dogggi"
+                    "dogs dogs dogggi";
+            }
+        
+            .halfdog {
+                grid-area: halfdog;
+            }
+        
+            .king-dog {
+                grid-area: king-dog;
+            }
+        
+            .right-dog {
+                grid-area: right-dog;
+            }
+        
+            .left-dog {
+                grid-area: left-dog;
+            }
+        
+            .dogggi {
+                grid-area: dogggi;
+            }
+        
+            .dogs {
+                grid-area: dogs;
+            }
+            
+
+/* Gallery-3 Katze  */
+.gallery-3 {
+            display: grid;
+            grid-template-columns: 260px 260px 260px;
+            grid-template-rows: 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px 16px;
+            grid-auto-columns: 1fr;
+            gap: 12px 6px;
+        grid-auto-flow: row;
+            grid-template-areas:
+                "cat2 cat2 cat1"
+                "cat2 cat2 cat1"
+                "cat2 cat2 cat1"
+                "cat2 cat2 cat1"
+                "cat2 cat2 cat1"
+                "cat2 cat2 cat1"
+                "cat2 cat2 cat1"
+                "cat2 cat2 cat1"
+"cat2 cat2 cat1"
+    "cat2 cat2 cat1"
+    "cat2 cat2 cat1"
+        "cat2 cat2 cat1"
+
+                "cat3 cat5 cat1"
+                "cat3 cat5 cat1"
+                "cat3 cat5 cat6"
+                "cat3 cat5 cat6"
+                "cat3 cat5 cat6"
+                "cat3 cat5 cat6"
+                "cat3 cat5 cat6"
+                    "cat3 cat5 cat6"
+                        "cat3 cat5 cat6"
+                        "cat3 cat5 cat6"
+                        "cat3 cat5 cat6"
+                "cat4 cat4 cat6"
+                "cat4 cat4 cat6"
+                "cat4 cat4 cat6"
+                "cat4 cat4 cat6"
+                "cat4 cat4 cat6"
+                "cat4 cat4 cat6"
+                "cat4 cat4 cat6"
+                ". . .";
+        }
+    
+        .cat1 {
+            grid-area: cat1;
+        }
+    
+        .cat2 {
+            grid-area: cat2;
+        }
+    
+        .cat3 {
+            grid-area: cat3;
+        }
+    
+        .cat5 {
+            grid-area: cat5;
+        }
+    
+        .cat4 {
+            grid-area: cat4;
+        }
+    
+        .cat6 {
+            grid-area: cat6;
+        }
+
+
+        .cat2 img{
+            object-fit: contain;
+            overflow: hidden;
+            width: 50%;
+
+        }
+        
+/* Gallery-4 Kleintier */
+.gallery-4 {
+    columns: 2;
+        max-width: 850px;
+        column-count: 2;
+        column-width: 350px;
+}
+
+
+
+/* Gallery-5 Digital Art */
+.gallery-5 {
+    columns: 2;
+    max-width: 850px;
+    column-count: 2;
+    column-width: 350px;
+}
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+
+@media only screen and (min-width:951px) and (max-width: 1323px) {
+    #gallery-page .page  {
+        flex-direction: column;
+    }
+
+    #gallery-page ul {
+        flex-direction: row;
+        gap: 32px;
+    }
+
+    #gallery-page nav li:first-child {
+        margin-right: 12px;
+    }
+
+    #gallery-page .gallery {
+        margin-top: 24px;
+    }
+}
+
+@media only screen and (min-width: 678px) and (max-width: 951px) {
+    #gallery-page .text p {
+        font-size: 9vw;
+        width: 100%;
+        
+        text-align: center;
+    }
+
+    #gallery-page nav li:first-child,
+    .page li {
+        font-size: 1.5rem;
+    }
+
+    #gallery-page .gallery .gallery-2 {
+        display: flex;
+        flex-wrap: wrap;
+        grid-auto-flow: column;
+    }
+}
+
+@media only screen and (max-width: 678px) {
+    
+
+    #gallery-page nav li:first-child,
+    #gallery-page .page li {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    #gallery-page .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    #gallery-page .title p {
+        font-size: 1.6rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    #gallery-page nav ul {
+        flex-direction: column;
+        gap: 32px;
+        text-align: center;
+        margin-top: 44px;
+        margin-bottom: 50px;
+    }
+
+    #gallery-page nav ul li {
+        width: 100%;
+    }
+
+    #gallery-page nav li:first-child {
+        margin-right: 0px;
+        margin-bottom: 6px;
+    }
+
+    #gallery-page .text p {
+        font-size: 13vw;
+        width: 100%;
+        text-align: center;
+    }
+
+    #gallery-page .text {
+        font-size: 13vw;
+        width: 100%;
+        text-align: center;
+    }
+
+    #gallery-page .spaces {
+        display: none;
+    }
+
+    #gallery-page .h1 {
+        text-align: center;
+        margin-top: 0px;
+        margin-top: 0px;
+        font-size: 26vw;
+    }
+
+    #gallery-page .title p {
+        font-size: 7vw;
+    }
+
+    #gallery-page .page {
+        padding: 0;
+    }
+
+    #gallery-page nav ul {
+        flex-direction: column;
+        gap: 32px;
+        text-align: center;
+        margin-top: 44px;
+        margin-bottom: 60px;
+    }
+
+    #gallery-page nav ul li {
+        background-color: whitesmoke;
+        border-bottom: 1px solid rgba(105, 105, 105, 0.178);
+    }
+}
